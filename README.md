@@ -20,7 +20,7 @@ In order for us to facilitate and secure the loan granting process in the bankin
 Redis is an open source, in-memory data structure store used as a database, cache, message broker, and streaming engine. Redis provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions, and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.
 
 ## Architecture
-![Copy of architecture-design for tp banking system(3)](https://www.canva.com/design/DAFCQlmMKKU/WwJ3FXsWMBKspFsQUlNT-g/view?utm_content=DAFCQlmMKKU&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
+![Copy of architecture-design for tp banking system(3)](https://github.com/ramiKammoun/TP4-Banking-System/blob/main/Architecture.png?raw=true)
 
 1) The client scans his documents and sends them through the Broker.
 2) The commercial service reads through the documents and decides on the eligibility of the client.
